@@ -19,6 +19,9 @@ public class ScrollingActivity extends AppCompatActivity {
 
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragments_container, new Page1Fragment());
+
+        // If you uncomment this line and comment the Page1Fragment line - then the page will scroll till the end (until "THE END" string)
+//        transaction.replace(R.id.fragments_container, new Page2Fragment());
         transaction.commit();
     }
 

@@ -69,7 +69,7 @@ public class Page2Fragment extends Fragment {
                 "        \"Motion is meaningful and appropriate, serving to focus attention and maintain continuity. \"\n" +
                 "        \"Feedback is subtle yet clear. Transitions are efﬁcient yet coherent. THE END!");
 
-        
+
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setHasFixedSize(true);
